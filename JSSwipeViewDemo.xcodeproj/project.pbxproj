@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54830E531980316100F4A44D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54830E521980316100F4A44D /* Foundation.framework */; };
+		54830E551980316100F4A44D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54830E541980316100F4A44D /* CoreGraphics.framework */; };
+		54830E571980316100F4A44D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54830E561980316100F4A44D /* UIKit.framework */; };
+		54830E5D1980316100F4A44D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54830E5B1980316100F4A44D /* InfoPlist.strings */; };
+		54830E5F1980316100F4A44D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54830E5E1980316100F4A44D /* main.m */; };
+		54830E631980316100F4A44D /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54830E621980316100F4A44D /* JSAppDelegate.m */; };
+		54830E661980316100F4A44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54830E641980316100F4A44D /* Main.storyboard */; };
+		54830E691980316100F4A44D /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54830E681980316100F4A44D /* JSViewController.m */; };
+		54830E6B1980316100F4A44D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54830E6A1980316100F4A44D /* Images.xcassets */; };
+		54830E721980316100F4A44D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54830E711980316100F4A44D /* XCTest.framework */; };
+		54830E731980316100F4A44D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54830E521980316100F4A44D /* Foundation.framework */; };
+		54830E741980316100F4A44D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54830E561980316100F4A44D /* UIKit.framework */; };
+		54830E7C1980316100F4A44D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54830E7A1980316100F4A44D /* InfoPlist.strings */; };
+		54830E7E1980316100F4A44D /* JSSwipeViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54830E7D1980316100F4A44D /* JSSwipeViewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54830E751980316100F4A44D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54830E471980316100F4A44D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54830E4E1980316100F4A44D;
+			remoteInfo = JSSwipeViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54830E4F1980316100F4A44D /* JSSwipeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSSwipeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54830E521980316100F4A44D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54830E541980316100F4A44D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54830E561980316100F4A44D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54830E5A1980316100F4A44D /* JSSwipeViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSSwipeViewDemo-Info.plist"; sourceTree = "<group>"; };
+		54830E5C1980316100F4A44D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54830E5E1980316100F4A44D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54830E601980316100F4A44D /* JSSwipeViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSSwipeViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		54830E611980316100F4A44D /* JSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSAppDelegate.h; sourceTree = "<group>"; };
+		54830E621980316100F4A44D /* JSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSAppDelegate.m; sourceTree = "<group>"; };
+		54830E651980316100F4A44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54830E671980316100F4A44D /* JSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
+		54830E681980316100F4A44D /* JSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		54830E6A1980316100F4A44D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		54830E701980316100F4A44D /* JSSwipeViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSSwipeViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54830E711980316100F4A44D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		54830E791980316100F4A44D /* JSSwipeViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSSwipeViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		54830E7B1980316100F4A44D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54830E7D1980316100F4A44D /* JSSwipeViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSSwipeViewDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54830E4C1980316100F4A44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54830E551980316100F4A44D /* CoreGraphics.framework in Frameworks */,
+				54830E571980316100F4A44D /* UIKit.framework in Frameworks */,
+				54830E531980316100F4A44D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54830E6D1980316100F4A44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54830E721980316100F4A44D /* XCTest.framework in Frameworks */,
+				54830E741980316100F4A44D /* UIKit.framework in Frameworks */,
+				54830E731980316100F4A44D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54830E461980316100F4A44D = {
+			isa = PBXGroup;
+			children = (
+				54830E581980316100F4A44D /* JSSwipeViewDemo */,
+				54830E771980316100F4A44D /* JSSwipeViewDemoTests */,
+				54830E511980316100F4A44D /* Frameworks */,
+				54830E501980316100F4A44D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54830E501980316100F4A44D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54830E4F1980316100F4A44D /* JSSwipeViewDemo.app */,
+				54830E701980316100F4A44D /* JSSwipeViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54830E511980316100F4A44D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54830E521980316100F4A44D /* Foundation.framework */,
+				54830E541980316100F4A44D /* CoreGraphics.framework */,
+				54830E561980316100F4A44D /* UIKit.framework */,
+				54830E711980316100F4A44D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54830E581980316100F4A44D /* JSSwipeViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				54830E611980316100F4A44D /* JSAppDelegate.h */,
+				54830E621980316100F4A44D /* JSAppDelegate.m */,
+				54830E641980316100F4A44D /* Main.storyboard */,
+				54830E671980316100F4A44D /* JSViewController.h */,
+				54830E681980316100F4A44D /* JSViewController.m */,
+				54830E6A1980316100F4A44D /* Images.xcassets */,
+				54830E591980316100F4A44D /* Supporting Files */,
+			);
+			path = JSSwipeViewDemo;
+			sourceTree = "<group>";
+		};
+		54830E591980316100F4A44D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54830E5A1980316100F4A44D /* JSSwipeViewDemo-Info.plist */,
+				54830E5B1980316100F4A44D /* InfoPlist.strings */,
+				54830E5E1980316100F4A44D /* main.m */,
+				54830E601980316100F4A44D /* JSSwipeViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54830E771980316100F4A44D /* JSSwipeViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				54830E7D1980316100F4A44D /* JSSwipeViewDemoTests.m */,
+				54830E781980316100F4A44D /* Supporting Files */,
+			);
+			path = JSSwipeViewDemoTests;
+			sourceTree = "<group>";
+		};
+		54830E781980316100F4A44D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54830E791980316100F4A44D /* JSSwipeViewDemoTests-Info.plist */,
+				54830E7A1980316100F4A44D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54830E4E1980316100F4A44D /* JSSwipeViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54830E811980316100F4A44D /* Build configuration list for PBXNativeTarget "JSSwipeViewDemo" */;
+			buildPhases = (
+				54830E4B1980316100F4A44D /* Sources */,
+				54830E4C1980316100F4A44D /* Frameworks */,
+				54830E4D1980316100F4A44D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSSwipeViewDemo;
+			productName = JSSwipeViewDemo;
+			productReference = 54830E4F1980316100F4A44D /* JSSwipeViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54830E6F1980316100F4A44D /* JSSwipeViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54830E841980316100F4A44D /* Build configuration list for PBXNativeTarget "JSSwipeViewDemoTests" */;
+			buildPhases = (
+				54830E6C1980316100F4A44D /* Sources */,
+				54830E6D1980316100F4A44D /* Frameworks */,
+				54830E6E1980316100F4A44D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54830E761980316100F4A44D /* PBXTargetDependency */,
+			);
+			name = JSSwipeViewDemoTests;
+			productName = JSSwipeViewDemoTests;
+			productReference = 54830E701980316100F4A44D /* JSSwipeViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54830E471980316100F4A44D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jayant Sani";
+				TargetAttributes = {
+					54830E6F1980316100F4A44D = {
+						TestTargetID = 54830E4E1980316100F4A44D;
+					};
+				};
+			};
+			buildConfigurationList = 54830E4A1980316100F4A44D /* Build configuration list for PBXProject "JSSwipeViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54830E461980316100F4A44D;
+			productRefGroup = 54830E501980316100F4A44D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54830E4E1980316100F4A44D /* JSSwipeViewDemo */,
+				54830E6F1980316100F4A44D /* JSSwipeViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54830E4D1980316100F4A44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54830E6B1980316100F4A44D /* Images.xcassets in Resources */,
+				54830E5D1980316100F4A44D /* InfoPlist.strings in Resources */,
+				54830E661980316100F4A44D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54830E6E1980316100F4A44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54830E7C1980316100F4A44D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54830E4B1980316100F4A44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54830E5F1980316100F4A44D /* main.m in Sources */,
+				54830E691980316100F4A44D /* JSViewController.m in Sources */,
+				54830E631980316100F4A44D /* JSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54830E6C1980316100F4A44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54830E7E1980316100F4A44D /* JSSwipeViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54830E761980316100F4A44D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54830E4E1980316100F4A44D /* JSSwipeViewDemo */;
+			targetProxy = 54830E751980316100F4A44D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54830E5B1980316100F4A44D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54830E5C1980316100F4A44D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54830E641980316100F4A44D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54830E651980316100F4A44D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54830E7A1980316100F4A44D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54830E7B1980316100F4A44D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54830E7F1980316100F4A44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54830E801980316100F4A44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54830E821980316100F4A44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSSwipeViewDemo/JSSwipeViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JSSwipeViewDemo/JSSwipeViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54830E831980316100F4A44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSSwipeViewDemo/JSSwipeViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JSSwipeViewDemo/JSSwipeViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		54830E851980316100F4A44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSSwipeViewDemo.app/JSSwipeViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSSwipeViewDemo/JSSwipeViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JSSwipeViewDemoTests/JSSwipeViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		54830E861980316100F4A44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JSSwipeViewDemo.app/JSSwipeViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSSwipeViewDemo/JSSwipeViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JSSwipeViewDemoTests/JSSwipeViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54830E4A1980316100F4A44D /* Build configuration list for PBXProject "JSSwipeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54830E7F1980316100F4A44D /* Debug */,
+				54830E801980316100F4A44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54830E811980316100F4A44D /* Build configuration list for PBXNativeTarget "JSSwipeViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54830E821980316100F4A44D /* Debug */,
+				54830E831980316100F4A44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54830E841980316100F4A44D /* Build configuration list for PBXNativeTarget "JSSwipeViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54830E851980316100F4A44D /* Debug */,
+				54830E861980316100F4A44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54830E471980316100F4A44D /* Project object */;
+}
