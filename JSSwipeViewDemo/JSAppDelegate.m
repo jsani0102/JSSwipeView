@@ -7,12 +7,23 @@
 //
 
 #import "JSAppDelegate.h"
+#import "JSLeftViewController.h"
 
 @implementation JSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    UIViewController *firstViewController = [[JSLeftViewController alloc] init];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:firstViewController];
+    self.window.rootViewController = navController;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 							

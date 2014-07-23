@@ -1,0 +1,3 @@
+A simple view that comes with two swipe gesture recognizers, left and right. These gesture recognizers' actions can be set to custom methods, as they are in the view controllers in the demo. One common application is to use this view to navigate between view controllers in a navigation stack.
+
+Let me know if any modifications need to be made, and I am open to pull requests, suggestions, patches, etc.

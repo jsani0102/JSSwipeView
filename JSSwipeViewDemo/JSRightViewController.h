@@ -1,5 +1,5 @@
 //
-//  JSViewController.h
+//  JSRightViewController.h
 //  JSSwipeViewDemo
 //
 //  Created by Jayant Sani on 7/23/14.
@@ -10,7 +10,7 @@
 
 @class JSSwipeView;
 
-@interface JSViewController : UIViewController
+@interface JSRightViewController : UIViewController
 
 @property (strong, nonatomic) JSSwipeView *swipeView;
 

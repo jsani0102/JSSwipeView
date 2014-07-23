@@ -21,6 +21,9 @@
 		54830E741980316100F4A44D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54830E561980316100F4A44D /* UIKit.framework */; };
 		54830E7C1980316100F4A44D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54830E7A1980316100F4A44D /* InfoPlist.strings */; };
 		54830E7E1980316100F4A44D /* JSSwipeViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54830E7D1980316100F4A44D /* JSSwipeViewDemoTests.m */; };
+		54830E8C1980319400F4A44D /* JSSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54830E8B1980319400F4A44D /* JSSwipeView.m */; };
+		54830E8F198035AF00F4A44D /* JSLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54830E8E198035AF00F4A44D /* JSLeftViewController.m */; };
+		54830E92198037C300F4A44D /* JSRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54830E91198037C300F4A44D /* JSRightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		54830E791980316100F4A44D /* JSSwipeViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSSwipeViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		54830E7B1980316100F4A44D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54830E7D1980316100F4A44D /* JSSwipeViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSSwipeViewDemoTests.m; sourceTree = "<group>"; };
+		54830E8A1980319400F4A44D /* JSSwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSSwipeView.h; path = ../JSSwipeView.h; sourceTree = "<group>"; };
+		54830E8B1980319400F4A44D /* JSSwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSSwipeView.m; path = ../JSSwipeView.m; sourceTree = "<group>"; };
+		54830E8D198035AF00F4A44D /* JSLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLeftViewController.h; sourceTree = "<group>"; };
+		54830E8E198035AF00F4A44D /* JSLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLeftViewController.m; sourceTree = "<group>"; };
+		54830E90198037C300F4A44D /* JSRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRightViewController.h; sourceTree = "<group>"; };
+		54830E91198037C300F4A44D /* JSRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +124,14 @@
 				54830E611980316100F4A44D /* JSAppDelegate.h */,
 				54830E621980316100F4A44D /* JSAppDelegate.m */,
 				54830E641980316100F4A44D /* Main.storyboard */,
+				54830E8D198035AF00F4A44D /* JSLeftViewController.h */,
+				54830E8E198035AF00F4A44D /* JSLeftViewController.m */,
 				54830E671980316100F4A44D /* JSViewController.h */,
 				54830E681980316100F4A44D /* JSViewController.m */,
+				54830E90198037C300F4A44D /* JSRightViewController.h */,
+				54830E91198037C300F4A44D /* JSRightViewController.m */,
+				54830E8A1980319400F4A44D /* JSSwipeView.h */,
+				54830E8B1980319400F4A44D /* JSSwipeView.m */,
 				54830E6A1980316100F4A44D /* Images.xcassets */,
 				54830E591980316100F4A44D /* Supporting Files */,
 			);
@@ -250,9 +265,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54830E92198037C300F4A44D /* JSRightViewController.m in Sources */,
+				54830E8C1980319400F4A44D /* JSSwipeView.m in Sources */,
 				54830E5F1980316100F4A44D /* main.m in Sources */,
 				54830E691980316100F4A44D /* JSViewController.m in Sources */,
 				54830E631980316100F4A44D /* JSAppDelegate.m in Sources */,
+				54830E8F198035AF00F4A44D /* JSLeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
