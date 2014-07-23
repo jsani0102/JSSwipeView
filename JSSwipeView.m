@@ -15,21 +15,16 @@
     self = [super initWithFrame:frame];
     if (self)
     {
-        [self setUpView];
+        self.rightSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(doRightSwipeAction)];
+        self.rightSwipe.direction = UISwipeGestureRecognizerDirectionRight;
+        
+        self.leftSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(doLeftSwipeAction)];
+        self.leftSwipe.direction = UISwipeGestureRecognizerDirectionLeft;
+        
+        [self addGestureRecognizer:self.rightSwipe];
+        [self addGestureRecognizer:self.leftSwipe];
     }
     return self;
-}
-
-- (void)setUpView
-{
-    self.rightSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(doRightSwipeAction)];
-    self.rightSwipe.direction = UISwipeGestureRecognizerDirectionRight;
-    
-    self.leftSwipe = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(doLeftSwipeAction)];
-    self.leftSwipe.direction = UISwipeGestureRecognizerDirectionLeft;
-    
-    [self addGestureRecognizer:self.rightSwipe];
-    [self addGestureRecognizer:self.leftSwipe];
 }
 
 - (void)setUpRightSwipeAction:(swipeViewBlock)rightSwipeAction

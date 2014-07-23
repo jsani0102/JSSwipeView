@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B727AEED-57B6-4FCC-8516-D9D78D03E842</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JSSwipeViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7F766DFF-77D9-4C96-BA74-270A00186F13</key>
+		<string>ssh://github.com/jsani0102/JSSwipeView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JSSwipeViewDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7F766DFF-77D9-4C96-BA74-270A00186F13</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jsani0102/JSSwipeView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7F766DFF-77D9-4C96-BA74-270A00186F13</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7F766DFF-77D9-4C96-BA74-270A00186F13</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JSSwipeViewDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
